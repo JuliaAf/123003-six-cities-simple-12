@@ -28,7 +28,7 @@ const Cities = ({ selectedCity }: CitiesProps): JSX.Element => {
                   title={`/${city.name}`}
                   onClick={(evt) => {
                     evt.preventDefault();
-                    dispatch(setSelectedCity());
+                    dispatch(setSelectedCity);
                   }}
                 >
                   <span>{city.name}</span>
